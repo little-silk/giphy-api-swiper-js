@@ -8,13 +8,20 @@ input {
   text-align: center;
 }
 
-.videos {
+.swiper {
   display: flex; 
   flex-wrap: wrap;
+  background: red;
 }
 
-.videos video {
+.swiper video {
   object-fit: cover;
   width:25%;
 /* height:100%; */
+}
+
+.swiper-wrapper {
+  background: green;
+  
+/*   height: 300px; */
 }
